@@ -1,8 +1,8 @@
 
 public class Testing {
     public static void main(String[] args) {
-        User u1 = new User("CSE11Student");
-        User u2 = new User("up/downvoter guy");
+        User u1 = new User("A person");
+        User u2 = new User("Another person");
         Post p1 = new Post("Title", "Content", u1);
         Post p2 = new Post("random", "blank", u1);
         Post c1 = new Post("Comment", p1, u1);
